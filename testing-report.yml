@@ -1,1 +1,28 @@
+---
+- summary: |
+    Покупка товара в интернет-магазине
+  status: pass
 
+- summary: |
+    Оформление товара
+  status: pass
+
+- summary: |
+    Сортировка товаров по категориям
+  status: pass
+
+- summary: |
+    Просмотр страницы товара 
+  status: pass
+
+- summary: |
+    Сортировка товаров по брэндам
+  status: pass
+
+- summary: |
+    Смена языка
+  status: pass
+
+- summary: |
+    Поиск товаров
+  status: pass
