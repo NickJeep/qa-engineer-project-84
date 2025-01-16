@@ -16,7 +16,7 @@
   status: pass
 
 - summary: |
-    Сортировка товаров по брэндам
+    Фильтрация товаров по брэндам
   status: pass
 
 - summary: |
@@ -25,4 +25,8 @@
 
 - summary: |
     Поиск товаров
+  status: pass
+
+- summary: |
+    Просмотр сайта в мобильной версии
   status: pass
