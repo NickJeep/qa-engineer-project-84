@@ -34,3 +34,7 @@
 - summary: |
     Просмотр товаров
   status: pass
+
+- summary: |
+    Фильтрация товаров по стоимости
+  status: pass
