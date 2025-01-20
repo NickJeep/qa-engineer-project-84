@@ -28,3 +28,14 @@
   actual-result: |
     Часть категорий из начала списка не отображается
     Ошибка показана на скриншотах Categoty1.png и Category2.png
+
+    - summary: |
+    
+  environment: |
+    
+  steps-to-reproduce: |
+    
+  expected-result: |
+    
+  actual-result: |
+    
