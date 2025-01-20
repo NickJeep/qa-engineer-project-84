@@ -1,0 +1,58 @@
+---
+test-cases:
+  - summary: |
+      Покупка товара в интернет-магазине
+    status: pass
+
+  - summary: |
+      Оформление товара
+    status: pass
+
+  - summary: |
+      Сортировка товаров по категориям
+    status: pass
+
+  - summary: |
+      Просмотр страницы товара
+    status: pass
+
+  - summary: |
+      Фильтрация товаров по брэндам
+    status: pass
+
+  - summary: |
+      Смена языка
+    status: pass
+
+  - summary: |
+      Поиск товаров
+    status: pass
+
+  - summary: |
+      Просмотр сайта в мобильной версии
+    status: pass
+
+  - summary: |
+      Просмотр товаров
+    status: pass
+
+  - summary: |
+      Фильтрация товаров по стоимости
+    status: pass
+
+  - summary: |
+      Добавление в корзину отсутствующих в наличии товаров
+    status: fail
+
+bugreports:
+  - summary: |
+      
+    environment: |
+      Google Chrome 132.0.6834.84 (Official Build) (64-bit)
+      OS Windows 11 Home 23H2 22631.4751
+    steps-to-reproduce: |
+      
+    expected-result: |
+      
+    actual-result: |
+      
