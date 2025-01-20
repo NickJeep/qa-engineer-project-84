@@ -30,3 +30,7 @@
 - summary: |
     Просмотр сайта в мобильной версии
   status: pass
+
+- summary: |
+    Просмотр товаров
+  status: pass
