@@ -58,3 +58,15 @@ bugreports:
       Главная страница прилодения будет на русском языке
     actual-result: |
       Язык приложения меняется на английский
+
+  - summary: |
+      
+    environment: |
+      Google Chrome 132.0.6834.84 (Official Build) (64-bit)
+      OS Windows 11 Home 23H2 22631.4751
+    steps-to-reproduce: |
+      1. 
+    expected-result: |
+      
+    actual-result: |
+      
