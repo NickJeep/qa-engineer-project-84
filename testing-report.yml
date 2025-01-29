@@ -4,15 +4,15 @@
   status: pass
 
 - summary: |
-    Оформление заказа
+    Удаление товаров из корзины
   status: pass
+
+- summary: |
+    Оформление заказа
+  status: fail
 
 - summary: |
     Сортировка товаров по категориям
-  status: pass
-
-- summary: |
-    Просмотр страницы товара 
   status: pass
 
 - summary: |
@@ -20,7 +20,7 @@
   status: pass
 
 - summary: |
-    Смена языка
+    Фильтрация товаров по стоимости
   status: pass
 
 - summary: |
@@ -28,21 +28,21 @@
   status: pass
 
 - summary: |
-    Пагинация страниц
+    Просмотр страницы товара 
   status: pass
 
 - summary: |
-    Фильтрация товаров по стоимости
+    Смена языка
   status: pass
+
+- summary: |
+    Пагинация товаров
+  status: fail
 
 - summary: |
     Добавление в корзину отсутствующих в наличии товаров
   status: fail
 
 - summary: |
-    Удаление товаров из корзины
-  status: pass
-
-- summary: |
     Очистка корзины
-  status: pass
+  status: fail
