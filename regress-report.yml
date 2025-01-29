@@ -1,51 +1,52 @@
 ---
-- summary: |
-    Добавление товара в корзину
-  status: pass
+test-cases:
+  - summary: |
+      Добавление товара в корзину
+    status: pass
 
-- summary: |
-    Удаление товаров из корзины
-  status: pass
+  - summary: |
+      Удаление товаров из корзины
+    status: pass
 
-- summary: |
-    Оформление заказа
-  status: fail
+  - summary: |
+      Оформление заказа
+    status: fail
 
-- summary: |
-    Сортировка товаров по категориям
-  status: pass
+  - summary: |
+      Сортировка товаров по категориям
+    status: pass
 
-- summary: |
-    Фильтрация товаров по брэндам
-  status: pass
+  - summary: |
+      Фильтрация товаров по брэндам
+    status: pass
 
-- summary: |
-    Фильтрация товаров по стоимости
-  status: pass
+  - summary: |
+      Фильтрация товаров по стоимости
+    status: pass
 
-- summary: |
-    Поиск товаров
-  status: pass
+  - summary: |
+      Поиск товаров
+    status: pass
 
-- summary: |
-    Просмотр страницы товара 
-  status: pass
+  - summary: |
+      Просмотр страницы товара
+    status: pass
 
-- summary: |
-    Смена языка
-  status: pass
+  - summary: |
+      Смена языка
+    status: pass
 
-- summary: |
-    Пагинация товаров
-  status: fail
+  - summary: |
+      Пагинация товаров
+    status: fail
 
-- summary: |
-    Добавление в корзину отсутствующих в наличии товаров
-  status: fail
+  - summary: |
+      Добавление в корзину отсутствующих в наличии товаров
+    status: fail
 
-- summary: |
-    Очистка корзины
-  status: fail
+  - summary: |
+      Очистка корзины
+    status: fail
 
 bugreports:
   - summary: |
@@ -83,7 +84,7 @@ bugreports:
       OS Windows 11 Home 23H2 22631.4751
     steps-to-reproduce: |
       1. Открыть главную страницу интернет-магазина
-      2. Нажимать на кнопку "Categoty(Категория)"
+      2. Нажимать на кнопку "Category(Категория)"
       3. Нажимать на кнопку "Next(Следующая)" до прекращения обновления страницы
       4. Нажимать на кнопку "Previous(Предыдущая)" до прекращения обновления страницы
     expected-result: |
