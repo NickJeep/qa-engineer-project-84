@@ -1,48 +1,51 @@
 ---
-test-cases:
-  - summary: |
-      Покупка товара в интернет-магазине
-    status: pass
+- summary: |
+    Добавление товара в корзину
+  status: pass
 
-  - summary: |
-      Оформление товара
-    status: pass
+- summary: |
+    Удаление товаров из корзины
+  status: pass
 
-  - summary: |
-      Сортировка товаров по категориям
-    status: pass
+- summary: |
+    Оформление заказа
+  status: fail
 
-  - summary: |
-      Просмотр страницы товара
-    status: pass
+- summary: |
+    Сортировка товаров по категориям
+  status: pass
 
-  - summary: |
-      Фильтрация товаров по брэндам
-    status: pass
+- summary: |
+    Фильтрация товаров по брэндам
+  status: pass
 
-  - summary: |
-      Смена языка
-    status: pass
+- summary: |
+    Фильтрация товаров по стоимости
+  status: pass
 
-  - summary: |
-      Поиск товаров
-    status: pass
+- summary: |
+    Поиск товаров
+  status: pass
 
-  - summary: |
-      Просмотр сайта в мобильной версии
-    status: pass
+- summary: |
+    Просмотр страницы товара 
+  status: pass
 
-  - summary: |
-      Просмотр товаров
-    status: pass
+- summary: |
+    Смена языка
+  status: pass
 
-  - summary: |
-      Фильтрация товаров по стоимости
-    status: pass
+- summary: |
+    Пагинация товаров
+  status: fail
 
-  - summary: |
-      Добавление в корзину отсутствующих в наличии товаров
-    status: fail
+- summary: |
+    Добавление в корзину отсутствующих в наличии товаров
+  status: fail
+
+- summary: |
+    Очистка корзины
+  status: fail
 
 bugreports:
   - summary: |
