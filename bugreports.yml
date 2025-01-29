@@ -77,7 +77,7 @@
   actual-result: |
     Товар добавляется в корзину и его можно оформить в заказ
 
-  - summary: |
+- summary: |
     Невозможность очистки корзины
   environment: |
     Google Chrome 132.0.6834.84 (Official Build) (64-bit)
