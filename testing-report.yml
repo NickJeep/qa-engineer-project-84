@@ -1,10 +1,10 @@
 ---
 - summary: |
-    Покупка товара в интернет-магазине
+    Добавление товара в корзину
   status: pass
 
 - summary: |
-    Оформление товара
+    Оформление заказа
   status: pass
 
 - summary: |
@@ -28,11 +28,7 @@
   status: pass
 
 - summary: |
-    Просмотр сайта в мобильной версии
-  status: pass
-
-- summary: |
-    Просмотр товаров
+    Пагинация страниц
   status: pass
 
 - summary: |
@@ -42,3 +38,11 @@
 - summary: |
     Добавление в корзину отсутствующих в наличии товаров
   status: fail
+
+- summary: |
+    Удаление товаров из корзины
+  status: pass
+
+- summary: |
+    Очистка корзины
+  status: pass
